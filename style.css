@@ -13,3 +13,17 @@
     color: rgba(0, 0, 0, 0.55);
     border-color: rgba(0, 0, 0, 0.55);
 }
+
+.navdroprow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdownText {
+    margin-bottom: 0;
+    flex-grow: 1;
+    text-align: left;
+    vertical-align: middle;
+}
